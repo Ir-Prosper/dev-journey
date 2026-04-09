@@ -22,7 +22,7 @@
     <main>
         <section id="about">
             <h2>About Me</h2>
-            <p>
+            <p class="section-intro">
                 My name is <strong>Prosper IRAKOZE</strong>, 
                 I'm a Burundian refugee living in Uganda since 2015. 
                 I am 34 years old and I hold a degree in networking from <em>Université du Lac Tanganyika</em> (ULT).
@@ -41,8 +41,8 @@
         <section id="skills">
             <h2>My Skills</h2>
             <p>I have a strong understanding in:</p>
-                <ul>
-                    <li>Networking</li>
+                <ul class="skill-list">
+                    <li class="skill-list li">Networking</li>
                     <li>Photoshop</li>
                     <li>Microsoft Office</li>
                 </ul>
@@ -113,9 +113,9 @@
     
     <form>
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="enter your full name">
+            <input type="text" id="name" name="name" placeholder="e.g: Prosper IRAKOZE">
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="enter your valid email">
+            <input type="email" id="email" name="email" placeholder="e.g: prosper@example.com">
             <label for="topic">Topic:</label>
             <select name="topic" id="topic">
                 <option value="general">General Question</option>
@@ -125,7 +125,7 @@
             <label for="message">Message:</label>
             <textarea id="message" name="message"></textarea>
 
-            <button type="submit">Submit</button>
+            <button class="btn" type="submit">Submit</button>
         </form>
 </section>
         

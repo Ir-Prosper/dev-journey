@@ -14,6 +14,32 @@ main{
     margin: 0 auto;
 }
 
+.section-intro{
+    font-style: italic;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.skill-list{
+    list-style: none;
+    padding-left: 0;
+}
+
+.skill-list li{
+    color: #2c3e50;
+    padding: 5px 0;
+    border-bottom: 1px solid #c2c2c2;
+}
+
+.btn{
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
 h1{
     color: white;
 }
