@@ -155,3 +155,41 @@ footer{
     padding: 15px;
     border-radius: 8px;
 }
+
+/* Stats Section */
+#stats {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* allows wrapping on small screens */
+}
+
+.stat-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    width: 180px;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.stat-card h3 {
+    font-size: 24px;
+    color: #2980b9; /* number color */
+    margin-bottom: 10px;
+}
+
+.stat-card p {
+    margin: 0;
+    font-size: 16px;
+    align-items: center;
+
+}
