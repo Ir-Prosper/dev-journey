@@ -193,3 +193,16 @@ footer{
     align-items: center;
 
 }
+
+@media (max-width: 768px) {  /*Tablet size*/
+    main{ padding: 10px; }
+    h1{font-size: 24px;}
+    nav{flex-direction: column; gap: 8px;}
+}
+
+@media(max-width: 480px){  /*Mobile phone size*/
+    body{padding: 10px;}
+    .stat-card{width: 100%;}
+    table{font-size: 12px;}
+    .btn{width: 100%}
+}
