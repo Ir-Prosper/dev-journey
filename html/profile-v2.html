@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profile</title>
+    <link rel="stylesheet" href="../css/style-v2.css" />
+  </head>
+  <body>
+    <div>
+      <header>
+        <h1>Prosper IRAKOZE</h1>
+        <nav>
+          <a href="#about">About Me</a>
+          <a href="#mission">My Mission</a>
+          <a href="#stats">My Progress</a>
+          <a href="#gallery">My Learning Journey</a>
+          <a href="#skills">Skills & Technologies</a>
+          <a href="#schedule">My Learning Schedule</a>
+          <a href="#contact">Contact Me</a>
+        </nav>
+      </header>
+
+      <aside class="sidebar">
+        <img src="images/prosperID.jpeg" alt="My Profile Picture" />
+        <p>Software Developer</p>
+      </aside>
+
+      <main>
+        <section id="about">
+          <h2>About Me</h2>
+          <p class="section-intro">
+            My name is <strong>Prosper IRAKOZE</strong>, I'm a Burundian refugee
+            living in Uganda since 2015. I am 34 years old and I hold a degree
+            in networking from <em>Université du Lac Tanganyika</em> (ULT).
+          </p>
+        </section>
+
+        <section id="mission">
+          <h2>My Mission</h2>
+          <p>
+            My mission is to leverage my technical skills and experiences to
+            contribute meaningfully to the <em>tech community</em> and help
+            others achieve their goals.
+          </p>
+        </section>
+
+        <section id="stats">
+          <h2>My Progress</h2>
+
+          <div class="stats-container">
+            <div class="stat-card">
+              <h3>4</h3>
+              <p>HoursPer Day</p>
+            </div>
+
+            <div class="stat-card">
+              <h3>100+</h3>
+              <p>Commits on GitHub</p>
+            </div>
+
+            <div class="stat-card">
+              <h3>3</h3>
+              <p>Files Built</p>
+            </div>
+
+            <div class="stat-card">
+              <h3>2026</h3>
+              <p>Started</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="gallery">
+          <h2>My Learning Journey</h2>
+          <p>Technologies and tools I work with every day.</p>
+          <div class="tech-grid">
+            <div class="tech-item">HTML5</div>
+            <div class="tech-item">CSS3</div>
+            <div class="tech-item">JavaScript</div>
+            <div class="tech-item">Git</div>
+            <div class="tech-item">GitHub</div>
+            <div class="tech-item">VS Code</div>
+            <div class="tech-item">Linux</div>
+            <div class="tech-item">Flexbox</div>
+            <div class="tech-item">CSS Grid</div>
+          </div>
+        </section>
+
+        <section id="skills">
+          <h2>Skills & Technologies</h2>
+          <div class="card-grid">
+            <div class="card">
+              <h3>My Skills</h3>
+              <ul class="skill-list">
+                <li>Networking</li>
+                <li>Photoshop</li>
+                <li>Microsoft Office</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3>Technologies I'm Learning</h3>
+              <ol class="tech-list">
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>Git</li>
+              </ol>
+            </div>
+          </div>
+        </section>
+        <section id="schedule">
+          <h2>My Learning Schedule</h2>
+          <p>
+            I dedicate time each day to learning and practicing new skills,
+            ensuring that I stay consistent and make steady progress in my
+            development journey.
+          </p>
+          <table>
+            <thead>
+              <tr>
+                <th>Day</th>
+                <th>Subject</th>
+                <th>Hours</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Monday</td>
+                <td>HTML & CSS</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>Tuesday</td>
+                <td>JavaScript</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>Wednesday</td>
+                <td>JavaScript</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>Thursday</td>
+                <td>JavaScript</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>Friday</td>
+                <td>JavaScript</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>Saturday</td>
+                <td>Git</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>Sunday</td>
+                <td>weekly Project</td>
+                <td>4</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section id="contact">
+          <h2>Contact Me</h2>
+
+          <form>
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="e.g: Prosper IRAKOZE"
+            />
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="e.g: prosper@example.com"
+            />
+            <label for="topic">Topic:</label>
+            <select name="topic" id="topic">
+              <option value="general">General Question</option>
+              <option value="collaboration">Collaboration</option>
+              <option value="job">Job Opportunity</option>
+            </select>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+
+            <button class="btn" type="submit">Submit</button>
+          </form>
+        </section>
+      </main>
+
+      <footer>
+        <p>Prosper IRAKOZE &copy; 2026</p>
+      </footer>
+    </div>
+  </body>
+</html>
