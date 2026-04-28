@@ -1,0 +1,78 @@
+/******** GLOBAL VARIABLES AND RESET ********/
+:root {
+  --primary: #054480;
+  --accent: #ff6600;
+  --cream: #d3cfc8;
+  --dark: #1a1a1a;
+  --white: #ffffff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  background: var(--white);
+  color: var(--dark);
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+/*************** HEADER STYLES START *************/
+/**--------------------------------------------**/
+.flex-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary);
+  padding: 5px 100px 5px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+.header-title{
+    color: var(--accent);
+    font-size: 1.3em;
+}
+
+.nav-menu a{
+    color: var(--accent);
+    font-size: 1em;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    position: relative;
+    transition: color 0.3s ease;
+    font-family: Georgia, serif;
+}
+
+.nav-menu a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0%;
+    height: 2px;
+    background-color: var(--white);
+    transition: 0.3s ease;
+}
+
+.nav-menu a:hover{
+    color: var(--white)
+
+}
+
+.nav-menu a:hover::before{
+    width: 100%;
+}
