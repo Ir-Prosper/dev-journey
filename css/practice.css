@@ -41,38 +41,78 @@ html {
   z-index: 9999;
 }
 
-.header-title{
-    color: var(--accent);
-    font-size: 1.3em;
+.header-title {
+  color: var(--accent);
+  font-size: 1.3em;
 }
 
-.nav-menu a{
-    color: var(--accent);
-    font-size: 1em;
-    text-decoration: none;
-    margin-left: 20px;
-    font-weight: bold;
-    position: relative;
-    transition: color 0.3s ease;
-    font-family: Georgia, serif;
+.nav-menu a {
+  color: var(--accent);
+  font-size: 1em;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+  position: relative;
+  transition: color 0.3s ease;
+  font-family: Georgia, serif;
 }
 
-.nav-menu a::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 0%;
-    height: 2px;
-    background-color: var(--white);
-    transition: 0.3s ease;
+.nav-menu a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0%;
+  height: 2px;
+  background-color: var(--white);
+  transition: 0.3s ease;
 }
 
-.nav-menu a:hover{
-    color: var(--white)
-
+.nav-menu a:hover {
+  color: var(--white);
 }
 
-.nav-menu a:hover::before{
-    width: 100%;
+.nav-menu a:hover::before {
+  width: 100%;
+}
+
+/************* SECTION 1 OUR TEAM ***************/
+.team-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+.team-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.team-grid {
+  background: var(--white);
+  padding: 25px;
+  border-radius: 10px;
+  border: 2px solid #e4e2e2;
+  transition: 0.3s ease;
+  box-shadow: 0.3s ease;
+}
+
+.team-grid h2 {
+  margin-bottom: 5px;
+  font-size: 22px;
+}
+
+.team-grid h3 {
+  color: gray;
+  margin-bottom: 2px;
+}
+
+.team-grid p {
+  line-height: 1.5;
+}
+
+.team-grid:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0,0.2);
 }
