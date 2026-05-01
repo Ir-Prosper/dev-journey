@@ -76,6 +76,11 @@ html {
 }
 
 /************* SECTION 1: OUR TEAM ***************/
+.team-section {
+    padding: 60px 20px;
+    background: var(--cream);
+}
+
 .team-title {
   color: var(--accent);
   text-align: center;
@@ -122,6 +127,11 @@ html {
 }
 
 /************* SECTION 2: WHY CHOOSE US ***************/
+.choice-section {
+    padding: 60px 20px;
+    background: var(--cream);
+}
+
 .choice-title {
   color: var(--accent);
   text-align: center;
@@ -172,6 +182,7 @@ html {
 /************* SECTION 3: JOIN OUR NEWSLETTER ***************/
 .newsletter-section {
   padding: 60px 20px;
+  background: var(--cream);
 }
 
 .newsletter-box{
