@@ -205,7 +205,7 @@ html {
 .newsletter-title::before{
   content: "";
   position: absolute;
-  top: -15%;
+  top: -10%;
   left: 50%;
   background: var(--accent);
   width: 60%;
