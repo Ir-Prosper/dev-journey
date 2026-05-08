@@ -294,3 +294,62 @@ header {
   transform: translateY(-10px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
+
+/*********** MAIN: ABOUT SECTION ************/
+.about-title{
+  color: var(--primary);
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+.about-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 20px;
+  background: #dbd8d8;
+}
+
+.about-text p{
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 1.6;
+
+}
+
+.about-nexa{
+  color: var(--accent);
+  text-shadow: 0 0 10px rgba(0, 212, 255, 0.6);
+}
+
+.about-link{
+  color: var(--secondary);
+}
+
+span{
+  text-transform: uppercase;
+  color: green;
+  text-decoration-line: underline;
+  font-family:  'Roboto', sans-serif;
+}
+
+.about-check-list{
+  font-family:  'Roboto', sans-serif;
+  font-size: 24px;
+  margin-right: 80px;
+  letter-spacing: 2px;
+  line-height: 1.6;
+  
+
+}
+
+img{
+  width: 600px;
+  border-radius: 20px;
+  border: 2px solid var(--secondary);
+  border: none;
+}
