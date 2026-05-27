@@ -1,133 +1,223 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Agency | WebSite</title>
-
+    <title>NexaLink | Digital Solutions for Africa</title>
+    
     <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    
+    <!-- CSS File -->
     <link rel="stylesheet" href="../css/agency.css" />
-  </head>
+</head>
+<body>
 
-  <body>
-    <!-- HEADER SECTION -->
+    <!-- ========== HEADER - STICKY NAVIGATION ========== -->
     <header>
-      <nav class="navbar">
-        <div class="nav-div">
-          <!-- LOGO -->
-          <div class="logo">
-            <a href="#">
-              <span class="nexa">Nexa</span>
-              <span class="link">Link</span>
-            </a>
-          </div>
+        <nav class="navbar">
+            <div class="nav-container">
+                <!-- Logo -->
+                <div class="logo">
+                    <a href="#">
+                        <span class="nexa">Nexa</span>
+                        <span class="link">Link</span>
+                    </a>
+                </div>
 
-          <!-- NAV MENU -->
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#stats">Stats</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-
-            <!-- BUTTON -->
-            <li class="nav-btn"><a href="#">Get Started</a></li>
-          </ul>
-        </div>
-      </nav>
+                <!-- Navigation Menu -->
+                <ul class="nav-menu">
+                    <li><a href="#home">🏠 Home</a></li>
+                    <li><a href="#services">⚙️ Services</a></li>
+                    <li><a href="#about">📖 About</a></li>
+                    <li><a href="#contact">📞 Contact</a></li>
+                    <li class="nav-btn"><a href="#contact">Get Started →</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
-    <!-- MAIN SECTION -->
+    <!-- ========== MAIN CONTENT ========== -->
     <main>
-    <!-- MAIN SECTION : HOME -->
 
-      <section class="home" id="home">
-        <div class="hero-container">
-          <div class="info">
-            <h1>We Build Digital Solutions for Africa</h1>
-            <h2>Modern software for modern businesses</h2>
-            <div class="btn-hero">
-              <button class="btn-btn">Our Services</button>
-              <button class="btn-btn">Contact Us</button>
+        <!-- ========== HERO SECTION - FULL SCREEN ========== -->
+        <section class="hero" id="home">
+            <div class="hero-overlay"></div>
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        We Build <span class="accent-text">Digital Solutions</span><br />
+                        for Africa
+                    </h1>
+                    <p class="hero-subtitle">Modern software for modern businesses</p>
+                    <div class="hero-buttons">
+                        <a href="#services" class="btn btn-primary">⚙️ Our Services</a>
+                        <a href="#contact" class="btn btn-outline">📞 Contact Us</a>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </section>
+        </section>
 
-    <!-- MAIN SECTION : SERVICES -->
+        <!-- ========== SERVICES SECTION - CSS GRID ========== -->
+        <section class="services" id="services">
+            <div class="container">
+                <h2 class="section-title">⚙️ What We Do</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">🌐</div>
+                        <h3>Web Development</h3>
+                        <p>Responsive websites tailored for African businesses.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">📱</div>
+                        <h3>Mobile Apps</h3>
+                        <p>Powerful apps that connect people and ideas.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">☁️</div>
+                        <h3>Cloud Solutions</h3>
+                        <p>Secure, scalable cloud services for growth.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-      <section id="services" class="services-section">
-          <h2 class="service-title" >What We Do</h2>
-        <div class="grid-service">
-          <div class="service-card">
-            <div class="icon">🌐</div>
-              <h3>Web Development</h3>
-              <p>Responsive websites tailored for African businesses.</p>
-          </div>
-          <div class="service-card">
-            <div class="icon">📱</div>
-              <h3>Mobile Apps</h3>
-              <p>Powerful apps that connect people and ideas.</p>
-          </div>
-          <div class="service-card">
-            <div class="icon">☁️</div>
-              <h3>Cloud Solutions</h3>
-              <p>Secure, scalable cloud services for growth.</p>
-          </div>         
-        </div>
-      </section>
+        <!-- ========== STATS SECTION - FLEXBOX ========== -->
+        <section class="stats">
+            <div class="container">
+                <h2 class="section-title stats-title">📊 Our Impact</h2>
+                <div class="stats-container">
+                    <div class="stat-card">
+                        <h3 class="stat-number">50+</h3>
+                        <p>Projects</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 class="stat-number">30+</h3>
+                        <p>Clients</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 class="stat-number">5+</h3>
+                        <p>Years</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 class="stat-number">3+</h3>
+                        <p>Countries</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <!-- MAIN SECTION : STATS -->
-     <section id="stats" class="stats-section">
-      <h2 class="stat-title">Stats</h2>
-      <div class="stat-container">
-        <div class="stat-card">
-          <h3 class="numbers">50+</h3>
-          <p>Projects</p>
-        </div>
-        <div class="stat-card">
-          <h3 class="numbers">30+</h3>
-          <p>Clients</p>
-        </div>
-        <div class="stat-card">
-          <h3 class="numbers">5+</h3>
-          <p>Years</p>
-        </div>
-        <div class="stat-card">
-          <h3 class="numbers">3+</h3>
-          <p>Countries</p>
-        </div>
-      </div>
-     </section>
+        <!-- ========== ABOUT SECTION - FLEXBOX ========== -->
+        <section class="about" id="about">
+            <div class="container">
+                <h2 class="section-title">📖 About NexaLink</h2>
+                <div class="about-container">
+                    <div class="about-content">
+                        <p class="about-text">
+                            <span class="about-nexa">Nexa</span><span class="about-link">Link</span> 
+                            is a tech startup dedicated to empowering African businesses with 
+                            modern digital solutions.
+                        </p>
+                        <p class="about-text">
+                            We believe in creating technology that drives real growth, connects 
+                            communities, and builds a brighter digital future for Africa.
+                        </p>
+                        <div class="about-values">
+                            <h4>Our Core Values:</h4>
+                            <ul class="values-list">
+                                <li>✅ Innovation First</li>
+                                <li>✅ Reliability Always</li>
+                                <li>✅ Growth Together</li>
+                                <li>✅ Partnership & Trust</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <!-- Replace this image path with your actual image -->
+                        <img src="./images/AboutNexaLink.png" alt="NexaLink Team" />
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <!-- MAIN SECTION : ABOUT -->
-     <section id="about" class="about-section">
-          <h2 class="about-title">About Us</h2>
-      <div class="about-container">
-        <div class="about-text">
-        <p> <span class="about-nexa">Nexa</span><span class="about-link">Link</span> is a tech startup dedicated to empowering African businesses,
-           with modern digital solutions.We believe in <span>innovation, reliability, and growth.</span>
-          </p>
-        </div>
-        <div class="about-check-list">
-         <p>✅Innovation</p>
-         <p>✅Reliability</p>
-         <p>✅Growth</p>
-         <p>✅Partnership</p> 
-        </div>
-        <div><img src="images/AboutNexaLink.png" alt="About NexaLink"></div>
-      </div>
-     </section>
+        <!-- ========== CONTACT SECTION ========== -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2 class="section-title">📬 Contact Us</h2>
+                <div class="contact-wrapper">
+                    <div class="contact-container">
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <label for="name">👤 Your Name</label>
+                                <input type="text" id="name" name="name" placeholder="John Doe" required />
+                            </div>
 
+                            <div class="form-group">
+                                <label for="email">📧 Your Email</label>
+                                <input type="email" id="email" name="email" placeholder="hello@nexalink.com" required />
+                            </div>
 
+                            <div class="form-group">
+                                <label for="message">💬 Your Message</label>
+                                <textarea id="message" name="message" placeholder="Tell us about your project..." rows="5" required></textarea>
+                            </div>
+
+                            <button type="submit" class="submit-btn">✨ Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <!-- FOOTER -->
-    <footer></footer>
-  </body>
+    <!-- ========== FOOTER - CSS GRID 3 COLUMNS ========== -->
+    <footer>
+        <div class="footer-container">
+            <!-- Column 1: Company Info -->
+            <div class="footer-col">
+                <div class="footer-logo">
+                    <span class="nexa">Nexa</span>
+                    <span class="link">Link</span>
+                </div>
+                <p class="footer-about">
+                    Empowering African businesses with modern digital solutions.
+                    Innovation, reliability, and growth for a brighter digital future.
+                </p>
+                <div class="footer-social">
+                    <a href="#">🐙 GitHub</a>
+                    <a href="#">💼 LinkedIn</a>
+                    <a href="#">🐦 Twitter</a>
+                </div>
+            </div>
+
+            <!-- Column 2: Quick Links -->
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#home">🏠 Home</a></li>
+                    <li><a href="#services">⚙️ Services</a></li>
+                    <li><a href="#about">📖 About</a></li>
+                    <li><a href="#contact">📞 Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 3: Contact Info -->
+            <div class="footer-col">
+                <h4>Contact Info</h4>
+                <ul class="footer-contact">
+                    <li>📧 info@nexalink.com</li>
+                    <li>📞 +256 780 634 908</li>
+                    <li>📍 Kampala, Uganda</li>
+                    <li>🌍 Africa</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Copyright Line -->
+        <div class="footer-bottom">
+            <p>© 2025 NexaLink. All rights reserved. Built with ❤️ for Africa</p>
+        </div>
+    </footer>
+
+</body>
 </html>
