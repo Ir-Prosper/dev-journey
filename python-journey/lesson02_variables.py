@@ -13,7 +13,7 @@ print("the total cost is:", total_cost)
 
 # 2nd_place = 10
 # my-score = 20
-#class = 30
+class = 30
 
 
 total_marks = 40
